@@ -152,15 +152,46 @@ a {
    color: #1F2937;
    font-size: 20px;
    font-weight: bold;
-   align-self: flex-end;
 }
 
 .section-four {
+   align-self: center;
    background-color: #3882F6;
+   color: #E5E7EB;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 80px;
+   margin-bottom: 80px;
+   padding: 40px 80px;
+   border-radius: 10px;
+   width: 50%;
+}
+
+.four-left {}
+
+.button-title {
+   font-weight: bold;
+}
+
+.subtext-button {
+   font-size: 10px;
+}
+
+.second-button {
+   color: #F9FAF8;
+   padding: 4px 20px;
+   margin-top: 10px;
+   border-radius: 5px;
+   border: 2px solid #F9FAF8;
+   cursor: pointer;
 }
 
 .footer {
    background-color: #1F2937;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
 }
 
 .footer-text {
